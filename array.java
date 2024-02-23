@@ -25,7 +25,7 @@ public class array {
         // marks[2] = marks[2] + 1;
         // System.out.println("chemistry updated marks:- "+marks[2]);
 
-        //percentage with array
+        //average with array
         int average = ((marks[0]+marks[1]+marks[2])/3);
         System.out.println("average of marks :- "+average);
         obj.close();

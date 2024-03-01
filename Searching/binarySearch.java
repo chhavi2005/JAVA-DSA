@@ -1,10 +1,5 @@
 public class binarySearch {
     //binary search is used for sorted arrays (example like dictionary works)
-    /**
-     * @param numbers
-     * @param key
-     * @return
-     */
     public static int binary(int numbers[],int key){
         int start = 0 ;int end = numbers.length-1;
 

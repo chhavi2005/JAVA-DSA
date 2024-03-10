@@ -15,6 +15,7 @@ public class subArrays {
                     System.out.print(numbers[k] + " ");
                     sumOfSubArrays += numbers[k]; // Add current element to sum
                 }
+                System.out.println();
                 System.out.println("Sum Of Sub Array : " + sumOfSubArrays);
                 sumOfSubArrays = 0; // Reset sum for the next subarray
             }
